@@ -16,6 +16,6 @@ describe("Prueba de unidad para la clase Explorer Service", () => {
 
     test('Obtener el username de los explorers por mission', () => {
         const usernamesByMission = ExplorerService.getExplorersUsernamesByMission(explorer, "node")
-        expect(usernamesByMission).toEqual(expect.arrayContaining(["ajolonauta5"]))
+        expect(usernamesByMission).toEqual(expect.arrayContaining(["ajolonauta1"]))
     })
 })
